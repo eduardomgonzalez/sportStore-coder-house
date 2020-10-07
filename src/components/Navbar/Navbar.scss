@@ -1,0 +1,38 @@
+.navbar {
+  color: white;
+  background-color: black !important;
+
+  .navbar-brand {
+    h2 {
+      margin-left: 40px;
+    }
+
+    img {
+      width: 200px;
+    }
+  }
+
+  .navbar-collapse {
+    .ml-auto {
+      margin-right: 50px !important;
+
+      a {
+        font-size: 19px;
+      }
+    }
+  }
+
+  .MuiBadge-badge {
+    margin: -2px;
+  }
+
+  .icon {
+    display: none;
+  }
+
+  @media only screen and (max-width: 992px) {
+    .icon {
+      display: block;
+    }
+  }
+}

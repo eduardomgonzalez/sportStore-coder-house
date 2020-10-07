@@ -1,0 +1,38 @@
+footer {
+  background-color: #252527;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 25vh;
+  margin-top: 300px;
+
+  .social {
+    padding-top: 20px;
+
+    a {
+      .social-icons {
+        color: #2f6d88;
+      }
+    }
+
+    &-github {
+      margin-right: 50px;
+    }
+
+    &-linkedin {
+      margin-left: 50px;
+    }
+  }
+
+  .copyright {
+    text-align: center;
+    color: white;
+    padding: 40px 0px 20px;
+    font-size: 18px;
+
+    a {
+      text-decoration: none;
+    }
+  }
+}

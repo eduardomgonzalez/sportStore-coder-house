@@ -1,0 +1,12 @@
+.categories {
+  padding-top: 150px;
+  text-align: center;
+
+  &__list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 50px;
+  }
+}

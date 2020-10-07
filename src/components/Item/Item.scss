@@ -1,0 +1,15 @@
+.link {
+  a {
+    text-decoration: none;
+    color: black;
+  }
+  &__item {
+    margin: 10px 20px -40px 20px;
+    transition: ease 400ms;
+
+    &:hover {
+      transform: scale(1.15) !important;
+      color: blue;
+    }
+  }
+}
